@@ -16,4 +16,4 @@ PLATFORMS
 
 DEPENDENCIES
   sinatra
-  socialoud
+  socialoud (~> 0.1.0)
