@@ -1,0 +1,8 @@
+services:
+  gravatar: endel.dreyer@gmail.com
+  linkedin:
+    user: endel
+    url: 'http://www.linkedin.com/in/endel'
+  github: endel
+  twitter: endel
+  facebook: endel.dreyer

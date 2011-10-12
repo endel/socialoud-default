@@ -1,0 +1,40 @@
+@import url(http://fonts.googleapis.com/css?family=Andada);
+
+body { font-size: 14px; font-family: 'Andada', serif; text-align: center; padding: 48px 0; }
+div#container { width: 800px; margin:0 auto; display: block; clear: both; }
+div#profile { clear: both; margin: 20px 0; text-align: left; }
+div#profile .right { float:right; text-align: right; }
+div#profile .right img { display: block;
+  border-radius: 12px;
+  -moz-border-radius: 12px;
+  -webkit-border-radius: 12px;
+}
+div#profile .left { text-align: left; }
+div#profile .tweet { width: 488px; }
+div#profile div#skills { background: #980202; padding: 4px 14px; margin-top: 36px; text-align: left;
+  -webkit-border-radius: 12px;
+  -moz-border-radius: 12px;
+  border-radius: 12px;}
+div#profile div#skills p { color: #fff; }
+
+h1 { color: #980202; font-size: 48px; margin-bottom: 6px; }
+h2 { margin-bottom: 14px; margin-top: 0; }
+p { margin: 8px 0; line-height: 20px; color: #919191; }
+
+ul.services { display: inline-block; list-style: none; padding: 0; text-align: center; clear: both; width: 100%; }
+ul.services li { display: inline-block; }
+ul.services li a { background: url(/images/social-icons.png); width: 33px; height: 32px; display: inline-block; text-indent: -200px; overflow: hidden; }
+ul.services li a:hover { position: relative; top: -1px; }
+ul.services li a.twitter { background-position: -33px 0; }
+ul.services li a.twitter:hover { background-position: -33px -32px; }
+ul.services li a.github{ background-position: -66px 0; }
+ul.services li a.github:hover { background-position: -66px -32px; }
+ul.services li a.linkedin{ background-position: 0 0; }
+ul.services li a.linkedin:hover { background-position: 0 -32px; }
+ul.services li a.facebook{ background-position: -99px 0; }
+ul.services li a.facebook:hover { background-position: -99px -32px; }
+
+a, a:link, a:active, a:visited { color: #980202; text-decoration: underline; }
+a:hover {text-decoration: none !important;}
+
+footer { margin-top: 28px; display: block; clear: both; }
