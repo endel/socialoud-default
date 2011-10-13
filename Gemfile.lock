@@ -58,5 +58,6 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  rack
   sinatra
   socialoud (~> 0.1.1)
